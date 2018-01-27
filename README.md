@@ -6,7 +6,7 @@ Readme Libreria
 *  **Plan de trabajo en quipo:**   _Proyecto colaborativo_
 
 ## Descripción
-Esta librería valida el número de tarjeta de crédito (usando algoritmo de Luhn). Necesita los datos de la tarjeta como: fecha de vencimiento, codigo de verificación (cvv) y nombre completo que aparece en la tarjeta.
+Esta librería valida el número de tarjeta de crédito (usando algoritmo de Luhn). Necesita los datos de la tareta como: fecha de vencimiento, codigo de verificación (cvv) y nombre completo que aparece en la tarjeta.
 
 ##  Instrucciones de instalación
 1. Descargar el archivo `index.js` de la carpeta `lib`.

@@ -1,7 +1,7 @@
 {
-  "name": "Validador",
+  "name": "prueba",
   "version": "1.0.0",
-  "description": "* **Utilizado para validar número de tarjetas de créditos:**",
+  "description": "* **Utilizado para validr tarjeta de crédito:**",
   "main": "gulpfile.babel.js",
   "directories": {
     "lib": "lib"
@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "kamaly zapana, gessenia canales",
+  "author": "kamaly",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.0",
