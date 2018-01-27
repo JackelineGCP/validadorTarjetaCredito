@@ -1,18 +1,20 @@
 {
-  "name": "card-validator",
+  "name": "prueba",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "babel src -d dist"
+  "description": "* **Descripción:**  \r * **Instrucciones de instalación:**  \r * **Uso y documentación:**",
+  "main": "gulpfile.babel.js",
+  "directories": {
+    "lib": "lib"
   },
   "scripts": {
-    "build": "babel --presets es2015 src -d dist"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Kamaly Zapana, Gessenia Canales",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1"
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "gulp-babel": "^7.0.1"
   }
 }
