@@ -1,13 +1,31 @@
-# Valida datos de tarjetas de crédito
+Readme Libreria
+# Libreria para validación de tarjeta de crédito
+* **Descripción**  
+* **Instrucciones de instalación**  
+* **Uso y documentación**  
+*  **Plan de trabajo en quipo:**   _Proyecto colaborativo_
 
-* **Descripción:**  
-* **Instrucciones de instalación:**  
-* **Uso y documentación:**  
+## Descripción
+Esta librería valida el número de tarjeta de crédito (usando algoritmo de Luhn). Necesita los datos de la tarjeta como: fecha de vencimiento, codigo de verificación (cvv) y nombre completo que aparece en la tarjeta.
 
-***
+##  Instrucciones de instalación
+1. Descargar el archivo `index.js` de la carpeta `lib`.
+2. Agregar archivo en un documento `html` como un `script`
+ 
+```js
+ <script src="lib/index.js"></script>
+ ```
 
-El plugin debe recibir una referencia a un elemento del DOM que contenga
-`<input>`s con los siguientes nombres (atributo `name`):
+3. Utilizar la función `validCard()` e incluir el número de la tarjeta como parámetro.
+```js
+let numberKey = document.getElementId('cn');
+validCard(numberKey);
+ ```
+ 
+ ##### HTML
+ 
+Debe recibir una referencia a un elemento del DOM que contenga
+`<input>` con los siguientes nombres (atributo `name`):
 
 * `cn` (Card Number): El número de la tarjeta de crédito
 * `exp` (Expiry Date): Fecha de expiración
@@ -37,20 +55,12 @@ El plugin debe recibir una referencia a un elemento del DOM que contenga
   <input type="submit" value="Pagar" />
 </form>
 ```
+## Uso y documentación
 
-```js
-const form = document.querySelector('form');
+##  Plan de trabajo en quipo
+* Delegación de tareas usando ` issues`
+  * Asignación de tareas
+  * Estructura de carpetas y dependencias.
+  * Pasos para instalar gulp-babel 
 
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
-  if (validateCardDetails(form)) {
-    console.log('datos válido... enviar...');
-  } else {
-    console.log('datos inválidos');
-  }
-});
-```
-
-A la hora de hacer las validaciones, la librería debería de añadir la clase
-`.error` a los `<input>`s que no pasen la validación, o la clase `.success`
-en caso de que sí pase.
+ _Autoras: Kamaly Zapana y Gessenia CP_

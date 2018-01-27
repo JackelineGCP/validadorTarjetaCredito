@@ -1,5 +1,5 @@
 {
-  "name": "Validador de tarjetas de créidito",
+  "name": "Validador",
   "version": "1.0.0",
   "description": "* **Utilizado para validar número de tarjetas de créditos:**",
   "main": "gulpfile.babel.js",

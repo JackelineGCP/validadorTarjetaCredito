@@ -7,7 +7,7 @@ const babel = require('gulp-babel');
 gulp.task('es6', ()=>{
   gulp.src('src/*.js')
     .pipe(babel()) // pasa datos
-    .pipe(gulp.dest('lib'));
+    .pipe(gulp.dest('public/js/'));
 });
 
 gulp.task('deafult', ()=>{
