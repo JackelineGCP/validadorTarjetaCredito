@@ -1,7 +1,9 @@
+Readme Libreria
 # Libreria para validación de tarjeta de crédito
 * **Descripción**  
 * **Instrucciones de instalación**  
 * **Uso y documentación**  
+*  **Plan de trabajo en quipo:**   _Proyecto colaborativo_
 
 ## Descripción
 Esta librería valida el número de tarjeta de crédito (usando algoritmo de Luhn). Necesita los datos de la tareta como: fecha de vencimiento, codigo de verificación (cvv) y nombre completo que aparece en la tarjeta.
@@ -55,4 +57,10 @@ Debe recibir una referencia a un elemento del DOM que contenga
 ```
 ## Uso y documentación
 
+##  Plan de trabajo en quipo
+* Delegación de tareas usando ` issues`
+  * Asignación de tareas
+  * Estructura de carpetas y dependencias.
+  * Pasos para instalar gulp-babel 
 
+ _Autoras: Kamaly Zapana y Gessenia CP_
