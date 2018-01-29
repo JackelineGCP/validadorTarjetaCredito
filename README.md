@@ -1,27 +1,52 @@
 Readme Libreria
-# Libreria para validación de tarjeta de crédito
-* **Descripción**  
+
+
+# Libreria ValidCard
+
+ * **Descripción**  
 * **Instrucciones de instalación**  
 * **Uso y documentación**  
-*  **Plan de trabajo en quipo:**   _Proyecto colaborativo_
+ 
 
-## Descripción
-Esta librería valida el número de tarjeta de crédito (usando algoritmo de Luhn). Necesita los datos de la tareta como: fecha de vencimiento, codigo de verificación (cvv) y nombre completo que aparece en la tarjeta.
+
+ValidCard  es un libreria basada en el algoritmo de  [Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn), te ayudará a saber si una tarjeta de crédito es válida o invalida. Puedes usar datos como: Fecha de vencimiento, codigo de verificación (cvv) y nombre completo que aparece en la tarjeta.
+
+Documentación oficial: http://escuela.digital/edgrid
+
+Colaboradores:
+
+* **Kamaly Zapana Lorenzo** https://github.com/kamalyzl
+* **Gessenia CP** https://github.com/JackelineGCP
+##  Contenido
+Este repositorio incluye los siguientes archivos:
+
+* **public/js/index.js** - contiene la libreria en su versión ES5.
+* **src/index.js** - contiene la libreria en su versión ES6.
 
 ##  Instrucciones de instalación
-1. Descargar el archivo `index.js` de la carpeta `lib`.
+1. Descargar el archivo `index.js`.
 2. Agregar archivo en un documento `html` como un `script`
  
 ```js
  <script src="lib/index.js"></script>
  ```
 
-3. Utilizar la función `validCard()` e incluir el número de la tarjeta como parámetro.
+3. Utilizar la función `validCard()` e incluir el número de la tarjeta como parámetro, esta acción te devolverá un valor booleano.
 ```js
-let numberKey = document.getElementId('cn');
-validCard(numberKey);
+ validCard('4578565808288696');
  ```
+
+### Descargar el proyecto
+https://www.4shared.com/document/YBM4SFsmca/index.html
+
+Luego debes copiar el archivo index.js a tu carpeta donde tienes los archivos js
+
  
+ 
+ 
+
+
+## Ejemplo
  ##### HTML
  
 Debe recibir una referencia a un elemento del DOM que contenga
@@ -31,8 +56,6 @@ Debe recibir una referencia a un elemento del DOM que contenga
 * `exp` (Expiry Date): Fecha de expiración
 * `cvv` (Card Verification Value): Código de validación de 3 dígitos
 * `name`: Nombre completo como aparece en la tarjeta
-
-## Ejemplo
 
 ```html
 <form>
@@ -58,9 +81,7 @@ Debe recibir una referencia a un elemento del DOM que contenga
 ## Uso y documentación
 
 ##  Plan de trabajo en quipo
-* Delegación de tareas usando ` issues`
-  * Asignación de tareas
-  * Estructura de carpetas y dependencias.
-  * Pasos para instalar gulp-babel 
+* Delegación de tareas, lo encontrarás en ` issues`
+ 
 
- _Autoras: Kamaly Zapana y Gessenia CP_
+ 
