@@ -1,9 +1,11 @@
+"use strict";
 
-let validCard = number => {
-  let sum = 0,
-    alt = false,
-    i = number.length - 1, // recorriendo de manera inversa
-    num;
+var validCard = function validCard(number) {
+  var sum = 0,
+      alt = false,
+      i = number.length - 1,
+      // recorriendo de manera inversa
+  num = void 0;
   if (number.length !== 16) {
     return false;
   }
@@ -15,7 +17,7 @@ let validCard = number => {
     if (alt) {
       num *= 2;
       if (num > 9) {
-        num = (num % 10) + 1;
+        num = num % 10 + 1;
       }
     }
     alt = !alt;
@@ -23,6 +25,5 @@ let validCard = number => {
     i--;
   }
   // determine if it's valid
-  return (sum % 10 === 0);
+  return sum % 10 === 0;
 };
-
