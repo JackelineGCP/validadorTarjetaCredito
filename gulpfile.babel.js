@@ -10,7 +10,7 @@ gulp.task('es6', ()=>{
     .pipe(gulp.dest('public/js/'));
 });
 
-gulp.task('deafult', ()=>{
+gulp.task('default', ()=>{
   gulp.watch('src/*.js', ['es6']);
 });
 
