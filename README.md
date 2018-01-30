@@ -11,7 +11,7 @@ Readme Libreria
 
 ValidCard  es un libreria basada en el algoritmo de  [Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn), te ayudará a saber si una tarjeta de crédito es válida o invalida. Puedes usar datos como: Fecha de vencimiento, codigo de verificación (cvv) y nombre completo que aparece en la tarjeta.
 
-Documentación oficial: http://escuela.digital/edgrid
+
 
 Colaboradores:
 
